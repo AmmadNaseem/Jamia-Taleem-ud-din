@@ -1,0 +1,158 @@
+:root {
+    --greenMain: #206121;
+    --yellowMain: #fea106;
+}
+
+a {
+    text-decoration: none;
+    color: transparent;
+}
+body {
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.logo-text {
+    color: rgb(99, 246, 77);
+    font-weight: bolder;
+}
+.bg-green-tab {
+    background: linear-gradient(
+        335deg,
+        rgb(147, 236, 133) 0%,
+        rgb(162, 241, 51) 100%
+    );
+}
+.navbar-toggler{
+    font-size: 12px!important;
+   }
+/* -----------FOR MENU SHOW ON HOVER-------- */
+.academicSubmenu:hover ul {
+    display: block;
+}
+.admissionSubmenu:hover ul {
+    display: block;
+}
+
+.banner {
+    background-size: cover;
+
+}
+.banner-box {
+    position: relative;
+}
+.banner img {
+    width: 100%;
+    z-index: 0;
+    object-fit:cover;
+}
+
+.intro-text {
+    background: black;
+    opacity: 70%;
+    width: 100%;
+    padding:10%;
+    position: relative;
+    top: 30%;
+    text-align: right;
+    color: white;
+}
+.intro-textAll {
+    background: black;
+    opacity: 70%;
+    width: 100%;
+    padding:10%;
+    position: relative;
+    top: 30%;
+    text-align: left;
+    color: white;
+}
+.hero-para {
+    font-size: 1rem;
+    text-align: right;
+}
+
+.bg-successedHR {
+    background: linear-gradient(
+        335deg,
+        rgb(147, 236, 133) 0%,
+        rgb(162, 241, 51) 100%
+    );
+    opacity: 1;
+    width: 85%;
+    height: 3px;
+    border: 3px solid greenyellow;
+    border-radius: 10%;
+}
+
+.backAttached {
+    background: linear-gradient(
+        335deg,
+        rgb(147, 236, 133) 0%,
+        rgb(162, 241, 51) 100%
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    width: 100vw;
+    background-attachment: fixed;
+    /* z-index: -1; */
+}
+
+.content {
+    position: absolute;
+    margin-top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.bg-emp-slider {
+    background: linear-gradient(
+        335deg,
+        rgb(147, 236, 133) 0%,
+        rgb(162, 241, 51) 100%
+    );
+
+
+}
+
+@media screen and (max-width: 1201px) and (min-width:474px){
+
+    .hero-para {
+        width: 100%;
+        font-size: 1rem;
+
+    }
+
+
+   }
+
+   @media screen and (max-width: 474px){
+    .logo-text {
+        font-size: medium;
+    }
+    .sm-title-head{
+        font-size: 20px!important;
+
+    }
+    .hero-para {
+        width: 100%;
+        font-size: 0.5rem!important;
+
+    }
+
+    .me-5{
+        margin-left: 1px !important;
+    }
+    .font-weight-bold{
+        font-size: 14px!important;
+    }
+    .card-title{
+        font-size: 14px!important;
+    }
+    .card-text{
+        font-size: 10px!important;
+    }
+
+   }
+
